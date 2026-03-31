@@ -1,0 +1,13 @@
+"spider": "./jar/zf2026.jar;md5;127ea82cb8bf8a82f0cf64da66e39b60",
+
+
+"jar":"./jar/应用.jar;md5;bfb998eda0e8130053dff264dbcea38f",
+应用商店，采集，直播
+
+"jar":"./jar/U盘.jar;md5;997f5632c275dec5804d8fc1ac5928f3",
+本地文件U盘
+
+
+
+"jar":"./jar/公告.jar",
+"jar":"./jar/XBPQ.jar",
