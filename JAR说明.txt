@@ -1,13 +1,25 @@
 "spider": "./jar/zf2026.jar;md5;127ea82cb8bf8a82f0cf64da66e39b60",
 
 
-"jar":"./jar/应用.jar;md5;bfb998eda0e8130053dff264dbcea38f",
-应用商店，采集，直播
 
-"jar":"./jar/U盘.jar;md5;997f5632c275dec5804d8fc1ac5928f3",
+{"key":"采集之王","name":"采集┃合集","type":3,"jar":"./jar/应用.jar;md5;bfb998eda0e8130053dff264dbcea38f","api":"./drpy_libs/drpy2.min.js","ext":"./set/采集之王.js?type=url&params=../set/采集静态.json$1$1"},
+
+{"key":"直播转点播","name":"📺直播┃点播","type":3,"jar":"./jar/应用.jar;md5;bfb998eda0e8130053dff264dbcea38f","api":"./drpy_libs/drpy2.min.js","ext":"./set/直播转点播.js?type=url&params=../set/直播转点播.json"},
+
+
+
+
+{"key":"Local","name":"文件┃浏览","type":3,"api":"csp_Local","searchable":0,"jar":"./jar/U盘.jar;md5;997f5632c275dec5804d8fc1ac5928f3","changeable":0},
 本地文件U盘
 
+{"key": "应用商店","name": "🛒应用商店","type": 3,"jar":"./jar/应用.jar;md5;bfb998eda0e8130053dff264dbcea38f","api": "csp_Market","searchable": 0,"changeable": 0,"ext": "./set/应用商店.json"},
 
 
-"jar":"./jar/公告.jar",
-"jar":"./jar/XBPQ.jar",
+
+
+
+
+
+{"key":"豆瓣公告","name":"豆瓣公告","type":3,"api":"csp_Douban","jar":"./jar/公告.jar","searchable":1,"quickSearch":0,"filterable":1,"ext":"./set/公告.json"},
+
+{"key":"全看","name":"🧿全看┃XBPQ","type":3,"api":"csp_XBPQ","jar":"./jar/XBPQ.jar","ext":"./XBPQ/全看.json"},
